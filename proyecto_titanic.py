@@ -1,5 +1,4 @@
 import streamlit as st
-import requests
 import pandas as pd
 import plotly.express as px
 import copy
@@ -158,7 +157,7 @@ def page_0():
         unsafe_allow_html=True
     )
 
-    st.image("titanic_1200x630.png", use_container_width=True)
+    st.image("titanic_1200x630.png", use_column_width=True)
 
 
 
